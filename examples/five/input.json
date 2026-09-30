@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "source": "Hand-written synthetic five-task example, not Henry's real data",
+  "as_of": "2026-09-30",
+  "agents": [{"id": "writer", "capabilities": ["write"], "capacity_minutes": 3}],
+  "tools": [{"id": "editor", "capabilities": ["write"], "capacity_minutes": 3}],
+  "tasks": [
+    {"id": "a", "capability": "write", "minutes": 2, "priority": 5, "created": "2026-09-29"},
+    {"id": "b", "capability": "write", "minutes": 1, "priority": 4, "created": "2026-09-29"},
+    {"id": "c", "capability": "write", "minutes": 1, "priority": 3, "created": "2026-09-29"},
+    {"id": "d", "capability": "research", "minutes": 1, "priority": 2, "created": "2026-09-29"},
+    {"id": "e", "capability": "write", "minutes": 2, "priority": 1, "created": "2026-09-29"}
+  ]
+}
