@@ -1,0 +1,6 @@
+KOML Scheduler build completed locally on 2026-09-30.
+Tests: 25 passed (pytest, 0.20 seconds).
+Local tested implementation commit: 498513e55838bf61cd830b2226e9b969a464be6b
+Installed CLI fixture/run/report demo: 0.544850 seconds, under 5 seconds.
+
+Built a CPU-only, local-file Python CLI that deterministically assigns tasks to capability-matching agents and tools within declared capacity. It includes five subcommands, pure scheduling logic, atomic saved results and report writes, JSON and Markdown provenance reports, 200 labelled synthetic tasks with independent hand-computed expectations, a hand-written five-task example, adversarial and exact-ground-truth tests, complete input and workflow documentation, lessons, and a two-week evidence hook with the final verdict explicitly pending real use. All synthetic totals and task IDs match expectations; no unmeasured savings are claimed. No publishing was performed. This build record refers to the implementation commit above; the subsequent documentation commit adds this record.
